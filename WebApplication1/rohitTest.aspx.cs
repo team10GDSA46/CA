@@ -13,5 +13,10 @@ namespace WebApplication1
         {
 
         }
+
+        protected void myFunc(object sender, EventArgs e)
+        {
+            Response.Write("<br /> Hello World");
+        }
     }
 }
